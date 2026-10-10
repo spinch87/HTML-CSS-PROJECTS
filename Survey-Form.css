@@ -1,0 +1,58 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image:  url("https://png.pngtree.com/background/20210710/original/pngtree-cartoon-cat-hand-drawn-cat-background-picture-image_1044885.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  margin: 1em auto;
+  color:  #3d3d6a;
+  padding: auto;
+}
+
+p{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+fieldset{
+  background-color: #3d3d6a;
+}
+fieldset label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #a6a6c4;
+    color: #000000;
+}
+
+

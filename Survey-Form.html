@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Adoption</title>
+  <h1 id="title">Cat Adoption Registration Form</h1>
+  <link rel="stylesheet" href="Survey-Form.css">
+  
+</head>
+
+
+<body>
+  <p id="description">Thank you for taking this form to adopt a Cat.</p>
+  <form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+
+    <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+    
+    <label for="idNumber" id="number-label">ID Number: <input id="number" type="number" min="0" max="11" placeholder="Enter your ID number." ></label>
+
+    <fieldset>
+      <legend>What type of cat do you want to adopt?</legend>
+    <select id="dropdown">  
+      
+      <option value="" >(Select One)</option>
+      <option value="1">Kitten </option>
+      <option value="2">Adult</option>
+      <option value="3">Senior</option>
+    </select>
+    </fieldset>
+
+      <fieldset>
+      <legend>Gender of Cat</legend>
+        <label for="male">
+          <input id="male" type="radio" name="gender" class="inline" value="male-selected" checked>
+          Male
+        </label>
+
+        <label for="female">
+          <input id="female" type="radio" name="gender" class="inline" value="female-selected">
+          Female
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Cat Breeds</legend>
+
+        <label for="breed">
+          <input id="breed" type="checkbox" value="breed_selected" name="Burmese Cat">
+          Burmese Cat
+        </label>
+
+        <label for="breed">
+          <input id="breed" type="checkbox" value="breed_selected" name="Puspin Cat">
+          Puspin Cat
+        </label>
+
+        <label for="breed">
+          <input id="breed" type="checkbox" value="breed_selected" name="Bombay Cat">
+          Bombay Cat
+        </label>
+        
+        <label for="breed">
+          <input id="breed" type="checkbox" value="breed_selected" name="Tabby Cat">
+          Tabby Cat
+        </label>
+     
+        </fieldset>
+        
+        <label for="comment">
+          <fieldset>
+          <legend>Why do you want to adopt a cat?</legend>
+          <textarea id="comment" name="comment" rows="5" cols="50" placeholder="Type here..."></textarea>
+        </label>
+        <input type="submit" id="submit"/> 
+        </fieldset>
+                      
+      
+  </fieldset>
+    
+</form>
+</body>
+
+</html>
